@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ErenSu</string>
+    <string name="navigation_drawer_open">Navigation drawer aç</string>
+    <string name="navigation_drawer_close">Navigation drawer kapat</string>
+    <string name="nav_header_title">Eren Solmaz</string>
+    <string name="nav_header_subtitle">2019370060</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_anasayfa">Anasayfa</string>
+    <string name="menu_profil">Profil</string>
+    <string name="menu_urunler">Ürünler</string>
+    <string name="menu_tema">Tema</string>
+</resources>

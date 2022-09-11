@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9D1D5"
+    tools:context=".ui.urunler.UrunlerFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/urunler_frame">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:scrollbars="horizontal|vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="top"
+            android:foregroundGravity="top"
+            android:src="@drawable/bg" />
+
+        <TextView
+            android:id="@+id/text_urunler"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:foregroundGravity="center"
+            android:text="Tüm ürünlerimiz mevcuttur."
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@color/black"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="970dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/mainBackground"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="25dp"
+                    android:src="@drawable/damacana" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="180dp"
+                    android:text="18 Litre Damacana" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="210dp"
+                    android:background="@drawable/switch_button_bg"
+                    android:text="Sepete Ekle"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    app:backgroundTint="#FFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="222dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/buyuk" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="275dp"
+                    android:layout_marginTop="180dp"
+                    android:text="10 Litre SU"
+                    android:textColor="@color/textAlt" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="210dp"
+                    android:background="@drawable/switch_button_bg"
+                    android:text="Sepete Ekle"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    app:backgroundTint="#FFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="290dp"
+                    android:src="@drawable/orta" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="465dp"
+                    android:text="2 Litre SU" />
+
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="490dp"
+                    android:background="@drawable/switch_button_bg"
+                    android:text="Sepete Ekle"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    app:backgroundTint="#FFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="50dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="285dp"
+                    android:layout_marginTop="335dp"
+                    android:src="@drawable/ufak" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="275dp"
+                    android:layout_marginTop="465dp"
+                    android:text="500 ML SU" />
+
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="490dp"
+                    android:background="@drawable/switch_button_bg"
+                    android:text="Sepete Ekle"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    app:backgroundTint="#FFFFFF" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="180dp"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="575dp"
+                    android:src="@drawable/tup" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="790dp"
+                    android:text="Tüp" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="820dp"
+                    android:background="@drawable/switch_button_bg"
+                    android:text="Sepete Ekle"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    app:backgroundTint="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="900dp"
+                    android:background="@drawable/switch_button_bg"
+                    android:text="Satın Al"
+                    android:visibility="invisible"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    app:backgroundTint="#4CAF50" />
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginTop="900dp"
+                    android:background="@drawable/switch_button_bg"
+                    android:text="Sıfırla"
+                    android:visibility="invisible"
+                    android:textColor="@color/black"
+                    android:textSize="10dp"
+                    app:backgroundTint="#ffffff" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

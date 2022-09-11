@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_anasayfa">
+
+    <fragment
+        android:id="@+id/nav_anasayfa"
+        android:name="com.example.erensu.ui.anasayfa.AnasayfaFragment"
+        android:label="@string/menu_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.example.erensu.ui.profil.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_urunler"
+        android:name="com.example.erensu.ui.urunler.UrunlerFragment"
+        android:label="@string/menu_urunler"
+        tools:layout="@layout/fragment_urunler" />
+
+    <fragment
+        android:id="@+id/nav_tema"
+        android:name="com.example.erensu.tema"
+        android:label="@string/menu_tema"
+        tools:layout="@layout/activity_tema" />
+</navigation>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9D1D5"
+    tools:context=".ui.profil.ProfilFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:scrollbars="horizontal|vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="top"
+        android:foregroundGravity="top"
+        android:src="@drawable/bg" />
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Kayıtlı değilsen aşağıdan kayıt olabilirsin."
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/mainBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_profil"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/altbg"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Kayıt Ol"
+                android:textColor="@color/mainText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fullName"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Ad Soyad"
+                android:textColor="@color/mainText" />
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="130dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="E-posta"
+                android:textColor="@color/mainText" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="180dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="Sifre"
+                android:textColor="@color/mainText" />
+
+
+            <EditText
+                android:id="@+id/adres"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="230dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Adres"
+                android:textColor="@color/mainText" />
+
+            <Button
+                android:id="@+id/buttonkaydol"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/switch_button_bg"
+                android:text="Kaydol"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:backgroundTint="#BED0DD" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Kayıtlıysan aşağıdan giriş yapabilirsin."
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/mainBackground"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_giris"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/altbg"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Giriş Yap"
+                android:textColor="@color/mainText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/mail2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="E-posta"
+                android:textColor="@color/mainText" />
+
+            <EditText
+                android:id="@+id/password2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="130dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="Sifre"
+                android:textColor="@color/mainText" />
+
+
+            <Button
+                android:id="@+id/buttongiris"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="210dp"
+                android:background="@drawable/switch_button_bg"
+                android:text="Giriş Yap"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:backgroundTint="#BED0DD" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
