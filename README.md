@@ -7,9 +7,13 @@ Java E-Commerce/Seller Application Project ErenSu
 
 
 Features:
+
 -Cart
+
 -Register and login
+
 -Dark and light theme
+
 -Products
 
 
