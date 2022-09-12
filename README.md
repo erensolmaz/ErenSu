@@ -5,6 +5,7 @@ Projenin kapsamı, amacı ve hedefi (Sürüm 1.0); Herkesin, her an ihtiyaç duy
 
 Java E-Commerce/Seller Application Project ErenSu
 
+App video:
 https://www.youtube.com/watch?v=jQ9IbwLKRIs
 
 Features:
