@@ -29,6 +29,15 @@
 ## Description
 Tasarım kısmında her sayfada bulundan erensu header’ı mevcut. Sayfalarda sağ alt köşede arama widget’I mevcut. Sol üst köşede açılabilir sayfa (navigator drawer) bulunmakta ve tıklamayla sayfalara yönlendirmekte. Anasayfayı iki farklı tabloya bölerek tasarımımı yaptım. Açıklama kısmını ve button’u vertical olarak ayarladım. Açıklama kısmının arkasına background olarak png koydum. Alt bölümde ise su şişesi png mevcut ve açıklama bölümünün alt üst kısımlarında çizgi olarak pngler mevcut. Mevcut sayfaların tümü için buttonlar üzerinde değişiklik yapıp şekillerini oval olarak tasarladım.
 
+
+
+## Profile
+![1](https://user-images.githubusercontent.com/40443383/191626002-7e4d5cce-82d5-4992-ba1f-168052bf57ea.png)
+
+![2](https://user-images.githubusercontent.com/40443383/191626015-0048f7e2-dc8a-4f14-8930-3029f0c10a30.png)
+
+
+
 ## Navigation Drawer:
 ![1](https://user-images.githubusercontent.com/40443383/189900665-a622ab66-7231-40f5-8ef6-a6d210ba7173.png)
 
