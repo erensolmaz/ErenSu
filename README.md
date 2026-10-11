@@ -2,7 +2,7 @@
 
 # 💧 ErenSu — Water Delivery App
 
-**A simple Android app that brings water and gas-cylinder products to people who need them (Su Satış Projesi)**
+**A simple Android app that brings water and gas-cylinder products to people who need them**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=black) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
@@ -28,7 +28,7 @@
 
 ## 📸 Screenshots & Design Notes
 
-## Su Satış Projesi
+## Water Sales Project
 
 #
 ![bg](https://user-images.githubusercontent.com/40443383/189902693-553d0fb4-eb68-41cb-8cdf-d475ab84f185.png)
@@ -38,7 +38,7 @@
 
 
 ## Description
-Tasarım kısmında her sayfada bulundan erensu header’ı mevcut. Sayfalarda sağ alt köşede arama widget’I mevcut. Sol üst köşede açılabilir sayfa (navigator drawer) bulunmakta ve tıklamayla sayfalara yönlendirmekte. Anasayfayı iki farklı tabloya bölerek tasarımımı yaptım. Açıklama kısmını ve button’u vertical olarak ayarladım. Açıklama kısmının arkasına background olarak png koydum. Alt bölümde ise su şişesi png mevcut ve açıklama bölümünün alt üst kısımlarında çizgi olarak pngler mevcut. Mevcut sayfaların tümü için buttonlar üzerinde değişiklik yapıp şekillerini oval olarak tasarladım.
+Every page has the ErenSu header. A search widget sits in the bottom right corner of the pages, and a navigation drawer in the top left opens and links to the pages. The home page is split into two tables, with the description and the button arranged vertically. A PNG is used as the background of the description area, a water bottle PNG appears at the bottom, and line PNGs frame the top and bottom of the description. The buttons on all pages were restyled with an oval shape.
 
 
 
@@ -52,10 +52,10 @@ Tasarım kısmında her sayfada bulundan erensu header’ı mevcut. Sayfalarda s
 ## Navigation Drawer:
 ![1](https://user-images.githubusercontent.com/40443383/189900665-a622ab66-7231-40f5-8ef6-a6d210ba7173.png)
 
-## Urunler:
+## Products:
 ![3](https://user-images.githubusercontent.com/40443383/189900667-066e8338-cb87-469e-9ea8-697d84d731b4.png)
 
-## Tema:
+## Theme:
 ![4](https://user-images.githubusercontent.com/40443383/189900660-a7295844-4d84-4953-9a38-6884f25450b0.png)
 
 ---
