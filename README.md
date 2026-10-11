@@ -1,29 +1,40 @@
-# ErenSU
+<div align="center">
+
+# 💧 ErenSu — Water Delivery App
+
+**A simple Android app that brings water and gas-cylinder products to people who need them (Su Satış Projesi)**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=black) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+</div>
+
+---
+
+## ✨ Features
+
+- Register and login (SQLite database)
+- Product list with cart
+- Dark & light theme
+- Navigation drawer and profile page
+- Search widget on every page
+
+## 🚀 Getting Started
+
+1. Open the project in **Android Studio**.
+2. Let Gradle sync (compileSdk 30, minSdk 16).
+3. Run on an emulator or a device.
+
+▶️ [Watch the app demo](https://www.youtube.com/watch?v=jQ9IbwLKRIs)
+
+## 📸 Screenshots & Design Notes
+
 ## Su Satış Projesi
 
-- Projenin kapsamı, amacı ve hedefi (Sürüm 1.0); Herkesin, her an ihtiyaç duyabileceği su ve tüp ürününü, hızlı ve basit bir şekilde ihtiyaç sahiplerinin eline ulaştıracak basit bir mobil program tasarlamak.
-
-- Java E-Commerce/Seller Application Project ErenSu
 #
 ![bg](https://user-images.githubusercontent.com/40443383/189902693-553d0fb4-eb68-41cb-8cdf-d475ab84f185.png)
 
-![](https://img.shields.io/github/stars/erensolmaz/erensu) ![](https://img.shields.io/github/forks/erensolmaz/erensu) ![](https://img.shields.io/github/tag/erensolmaz/erensu) ![](https://img.shields.io/github/release/erensolmaz/erensu) ![](https://img.shields.io/github/issues/erensolmaz/erensu) ![](https://img.shields.io/erensolmaz/erensu)
 
 ## [App Video](https://www.youtube.com/watch?v=jQ9IbwLKRIs "Heading link")
-
-
-### Features
-
-- Cart
-
-- Register and login
-
-- Dark and light theme
-
-- Products
-
-
-![2](https://user-images.githubusercontent.com/40443383/189900594-87e26aad-0f87-4f44-a664-848980b6c341.png)
 
 
 ## Description
@@ -47,4 +58,10 @@ Tasarım kısmında her sayfada bulundan erensu header’ı mevcut. Sayfalarda s
 ## Tema:
 ![4](https://user-images.githubusercontent.com/40443383/189900660-a7295844-4d84-4953-9a38-6884f25450b0.png)
 
+---
 
+<div align="center">
+
+Made by [Eren Solmaz](https://github.com/erensolmaz) · [LinkedIn](https://linkedin.com/in/noiren)
+
+</div>
